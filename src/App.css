@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+body{
+  background-color: #E3CAA5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  color: #80624c;
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.date{
+  display: flex;
+  justify-content: center;
+  color: #80624c;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.container{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.inputs{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.todo{
+  display: flex;
+  justify-content: center;
+  color:#80624c;
+  font-family: 'Dancing Script', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.crossed{
+  text-decoration: line-through 2px #594545;
+  background-color: #FFD1D1;
+}
+
+ul,li{
+  list-style-type: none;
+  padding:10px;
+  margin: 0;
+  font-size: 25px;
+}
+
+.btn-del{
+  display: flex;
+  justify-content: center;
+}
+
+.delete{
+  background-color: #FFF8EA;
+  color:#80624c;
+  border: 1px solid #2b241f;
+  padding: 10px;
+  font-family: 'Dancing Script', cursive; 
+}
+
+.add{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  background-color: #FFF8EA;
+  color:#80624c;
+  border: 1px solid #2b241f;
+  font-family: 'Dancing Script', cursive; 
+}
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Dancing Script', cursive; 
 }
